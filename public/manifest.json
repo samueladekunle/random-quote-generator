@@ -1,0 +1,7 @@
+{
+    "name": "simple-random-quote-engine",
+    "short_name": "random-quote",
+    "start_url": "./index.html",
+    "standalone": "display",
+    "theme-color": "#FFFFFF";
+}

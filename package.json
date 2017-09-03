@@ -1,0 +1,26 @@
+{
+  "name": "simple-random-quote-engine",
+  "version": "0.1.0",
+  "description": "A Simple Random Quote Generator Using ReactJS",
+  "main": "index.js",
+  "scripts": {
+    "test": "react-scripts --env=jsdom",
+    "start": "react-scripts start",
+    "build": "react-scripts build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "hhtps://www.github.com/samueladekunle/randm-quote-generator"
+  },
+  "keywords": [
+    "Random Quote Engine"
+  ],
+  "author": "Samuel Adekunle",
+  "license": "MIT",
+  "dependencies": {
+    "react": "^15.6.1",
+    "react-dom": "^15.6.1",
+    "react-scripts": "^1.0.12",
+    "react-transition-group": "1.x"
+  }
+}

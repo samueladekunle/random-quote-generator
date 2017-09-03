@@ -1,0 +1,109 @@
+.main-enter {
+    opacity: 0.01;
+}
+
+.main-enter.main-enter-active {
+    opacity: 1;
+    transition: opacity 500ms ease-in;
+}
+
+.main-leave {
+    opacity: 1;
+}
+
+.main-leave.main-leave-active {
+    opacity: 0.01;
+    transition: opacity 300ms ease-in;
+}
+
+.main-appear {
+    opacity: 0.01;
+}
+
+.main-appear.main-appear-active {
+    opacity: 1;
+    transition: opacity 500ms ease-in;
+}
+
+.new-quote:hover {
+    opacity: .7 !important;
+}
+
+.new-quote:active {
+    border-style: outset !important;
+}
+
+.quote-bar {
+    background-color: white;
+    width: 500px;
+    margin: 0 auto;
+}
+
+.word-quote {
+    font-family: Montserrat sans-serif;
+    font-style: italic;
+    font-size: 25px;
+}
+
+.word-quote,
+.fa-quote-left,
+.fa-quote-right {
+    color: gold;
+}
+
+.twitter-bird,
+.new-quote {
+    background-color: gold;
+    border: 0px;
+}
+
+.twitter-bird:hover,
+.new-quote:hover {
+    background-color: gold;
+}
+
+.twitter-bird:focus,
+.new-quote:focus {
+    background-color: gold;
+}
+
+.twitter-bird:active,
+.new-quote:active {
+    border: 0px;
+}
+
+.tweet-btn,
+.quote-btn {
+    width: 50%;
+}
+
+.fa-quote-left {
+    margin-left: 15px;
+}
+
+footer {
+    font-family: Lato sans-serif;
+    font-size: 18px !important;
+}
+
+@media (max-width: 750px) {
+    .quote-bar {
+        width: 350px;
+    }
+    .word-quote {
+        font-size: 23px;
+    }
+    footer {
+        font-size: 16px !important;
+    }
+}
+
+@media (max-width: 500px) {
+    .quote-bar {
+        width: 300px;
+    }
+    .quote-btn {
+        position: relative;
+        padding-left: 0px;
+    }
+}

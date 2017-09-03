@@ -5,7 +5,7 @@ This app was built using the [React](https://facebook.github.io/react) library
 ### Prerequisites
 To have this application up and running locally, you should have:
 - [`node`](https://nodejs.org) preferrably version 6.0 upwards.
-- [`yarn`](https://yarnpkg.com) package manager
+- [`yarn`](https://yarnpkg.com) dependency manager
 ### Installation
 In your terminal, run
 ```

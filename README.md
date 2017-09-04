@@ -1,5 +1,5 @@
 # A Random Quote Generator
-A single page application that generates a random quote every 1/2 a second using the React library
+A single page application that generates a random quote every 1/2 a minute using the React library. [Preview](https://simple-random-quote-engine-samueladekunle.c9users.io/).
 ## Getting Started
 This app was built using the [React](https://facebook.github.io/react) library
 ### Prerequisites

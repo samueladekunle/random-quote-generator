@@ -1,9 +1,9 @@
 import React, {Component} from "react";
 import {CSSTransitionGroup} from "react-transition-group";
-import Quote from "./components/quote.js";
-import Author from "./components/author.js";
-import TwitterBtn from "./components/twitter-btn.js";
-import NewQuoteBtn from "./components/new-quote-btn.js";
+import Quote from "./components/quote";
+import Author from "./components/author";
+import TwitterBtn from "./components/twitter-btn";
+import NewQuoteBtn from "./components/new-quote-btn";
 import quotes from "./data/quotes.json";
 import "./index.css";
 

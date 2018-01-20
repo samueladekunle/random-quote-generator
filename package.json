@@ -1,7 +1,7 @@
 {
-  "name": "simple-random-quote-engine",
+  "name": "random-quote-generator",
   "version": "0.1.0",
-  "description": "A Simple Random Quote Generator Using ReactJS",
+  "description": "A single page application that generates a random quote every 1/2 a minute using the React library",
   "main": "index.js",
   "scripts": {
     "test": "react-scripts --env=jsdom",
@@ -10,10 +10,13 @@
   },
   "repository": {
     "type": "git",
-    "url": "hhtps://www.github.com/samueladekunle/randm-quote-generator"
+    "url": "https://www.github.com/samueladekunle/random-quote-generator"
   },
   "keywords": [
-    "Random Quote Engine"
+    "quote-machine",
+    "quote-generator",
+    "random-quote-machine",
+    "random-quote-generator"
   ],
   "author": "Samuel Adekunle",
   "license": "MIT",
